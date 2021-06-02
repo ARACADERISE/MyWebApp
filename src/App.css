@@ -1,10 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Rajdhani:wght@300&display=swap');
+
 body {
   width: 100%;
 }
 
-.border {
+.head {
+  margin: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: inline-flex;
+  background-color: white;
+  width: 100%;
+  justify-content: space-between;
+  color: black;
   padding-top: 15px;
-  padding-left: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.head h1 {
+  filter: blur(.5px);
+  letter-spacing: 5px;
+}
+.head p {
+  letter-spacing: 3px;
+}
+
+.left {
+  float: left;
+  padding-top: 14px;
+  padding-right: 12px;
+}
+.left button {
+  margin-left: 10px;
+  padding: 10px 18px;
+  width: 200px;
+  font-size: 16px;
+  letter-spacing: 5px;
+  border: .5px solid black;
+}
+.left p {
+  font-family: 'Acme', sans-serif;
+}
+.right {
+  float: right;
+  padding-top: 14px;
+  padding-left: 12px;
+  margin-right: 10px;
+}
+.right button {
+  padding: 10px 18px;
+  border: .5px solid white;
+  margin-right: 10px;
+  width: 200px;
+  background-color: rgb(76, 239, 245);
+  font-size: 16px;
+  letter-spacing: 5px;
+}
+.right p {
+  font-family: 'Acme', sans-serif;
+}
+
+.third {
+  text-align: center;
+  padding: 6px 12px;
+  float: left;
+}
+.third button {
+  padding: 10px 18px;
+  border: none;
+  margin-right: 15px;
+  width: 200px;
+}
+
+.fourth {
+  text-align: center;
+  padding: 6px 12px;
+  justify-content: center;
+  text-align: center;
+}
+.info {
+  padding: 10px 18px;
+  margin-right: 15px;
+}
+
+.github {
+  transition: all .5s ease-out;
+  background-color: white;
+}
+.github:hover {
+  transition: all .5s ease-in;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+.github:focus {
+  background-color: grey;
+}
+
+.repl {
+  transition: all .5s ease-out;
+  background-color: white;
+}
+.repl:hover {
+  transition: all .5s ease-in;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.collab {
+  transition: all .5s ease-out;
+  background-color: white;
+}
+.collab:hover {
+  background-color: white;
+  cursor: pointer;
+  transition: all .5s ease-in;
+  border: .5px solid black;
+}
+
+.seeProjects {
+  transition: all .5s ease-out;
+  background-color: white;
+}
+.seeProjects:hover {
+  cursor: pointer;
+  background-color: white;
+  transition: all .5s ease-in;
+  border: .5px solid black;
+}
+
+.border {
+  font-size: 18px;
   border-bottom: 1px solid black;
+  width: 50%;
 }
